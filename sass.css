@@ -1,0 +1,136 @@
+/* line 1, ../../OneDrive/Desktop/vscode/m1/_sass/sass.sass */
+p {
+  font-family: arial;
+  margin: 370 10px;
+}
+
+/* line 4, ../../OneDrive/Desktop/vscode/m1/_sass/sass.sass */
+body {
+  background-color: #1d1d1d;
+  width: 100%;
+  height: 200%;
+}
+
+/* line 8, ../../OneDrive/Desktop/vscode/m1/_sass/sass.sass */
+.block1 {
+  display: inline-block;
+  background-image: url(AdobeStock_210996616_Preview.jpeg);
+  background-size: cover;
+  width: 30%;
+  height: 600px;
+  margin-right: 1%;
+  border-radius: 30px;
+  box-shadow: 10px 5px 5px black;
+}
+
+/* line 17, ../../OneDrive/Desktop/vscode/m1/_sass/sass.sass */
+.block2 {
+  display: inline-block;
+  background-image: url(AdobeStock_313143806_Preview.jpeg);
+  background-size: cover;
+  width: 30%;
+  height: 600px;
+  margin-right: 1%;
+  border-radius: 30px;
+  box-shadow: 10px 5px 5px black;
+}
+
+/* line 26, ../../OneDrive/Desktop/vscode/m1/_sass/sass.sass */
+.block3 {
+  display: inline-block;
+  background-image: url(AdobeStock_366910798_Preview.jpeg);
+  background-size: cover;
+  width: 30%;
+  height: 600px;
+  border-radius: 30px;
+  box-shadow: 10px 5px 5px black;
+}
+
+@media (max-width: 1880px) {
+  /* line 35, ../../OneDrive/Desktop/vscode/m1/_sass/sass.sass */
+  .block1 {
+    display: inline-block;
+    background-image: url(AdobeStock_210996616_Preview.jpeg);
+    background-size: cover;
+    height: 400px;
+    width: 45%;
+    margin: 30px;
+    border-radius: 30px;
+    box-shadow: 10px 5px 5px black;
+  }
+  /* line 44, ../../OneDrive/Desktop/vscode/m1/_sass/sass.sass */
+  .block2 {
+    display: inline-block;
+    background-image: url(AdobeStock_313143806_Preview.jpeg);
+    background-size: cover;
+    height: 400px;
+    width: 45%;
+    margin: 30px;
+    border-radius: 30px;
+    box-shadow: 10px 5px 5px black;
+  }
+  /* line 53, ../../OneDrive/Desktop/vscode/m1/_sass/sass.sass */
+  .block3 {
+    display: inline-block;
+    background-image: url(AdobeStock_366910798_Preview.jpeg);
+    background-size: cover;
+    height: 400px;
+    width: 45%;
+    margin-left: 27%;
+    border-radius: 30px;
+    box-shadow: 10px 5px 5px black;
+  }
+}
+
+@media (max-width: 1257px) {
+  /* line 64, ../../OneDrive/Desktop/vscode/m1/_sass/sass.sass */
+  .block1 {
+    width: 97%;
+    margin: 30 10px;
+  }
+  /* line 67, ../../OneDrive/Desktop/vscode/m1/_sass/sass.sass */
+  .block2 {
+    width: 97%;
+    margin: 30 10px;
+  }
+  /* line 70, ../../OneDrive/Desktop/vscode/m1/_sass/sass.sass */
+  .block3 {
+    width: 97%;
+    margin: 30 10px;
+  }
+}
+
+@media (max-width: 850px) {
+  /* line 74, ../../OneDrive/Desktop/vscode/m1/_sass/sass.sass */
+  .block1 {
+    width: 94%;
+    height: 300px;
+    margin: 30 10px;
+  }
+  /* line 78, ../../OneDrive/Desktop/vscode/m1/_sass/sass.sass */
+  .block1 p {
+    margin-top: 110px;
+  }
+  /* line 80, ../../OneDrive/Desktop/vscode/m1/_sass/sass.sass */
+  .block2 {
+    width: 94%;
+    height: 300px;
+    margin: 30 10px;
+  }
+  /* line 84, ../../OneDrive/Desktop/vscode/m1/_sass/sass.sass */
+  .block2 p {
+    margin-top: 110px;
+  }
+  /* line 86, ../../OneDrive/Desktop/vscode/m1/_sass/sass.sass */
+  .block3 {
+    width: 94%;
+    height: 300px;
+    margin: 30 10px;
+  }
+  /* line 90, ../../OneDrive/Desktop/vscode/m1/_sass/sass.sass */
+  .block3 p {
+    margin-top: 110px;
+  }
+}
+
+/*# sourceMappingURL=sass.css.map */
